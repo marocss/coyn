@@ -26,6 +26,7 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     'import/prefer-default-export': 'off',
-    'react/jsx-filename-extension': 0
+    'react/jsx-filename-extension': 0,
+    'no-console': 0
   },
 };

@@ -28,3 +28,12 @@ Um aplicativo que verifica o valor atual de uma cripto-moeda e sua variação e 
    ```
 5. `yarn start`
 6. Com Expo instalado em seu celular escaneie o código QR.
+
+---
+
+## TODO
+
+- [ ] double tap to reload data
+- [ ] add more coins
+  - [ ] new page to select a coin
+- [ ] press and hold to save GIF
