@@ -1,7 +1,7 @@
-import axios from 'axios'
+import axios from 'axios';
 
 const gifAPI = axios.create({
-  baseURL: 'https://api.giphy.com/v1/gifs/'
-})
+  baseURL: 'https://api.giphy.com/v1/gifs/',
+});
 
-export default gifAPI
+export default gifAPI;

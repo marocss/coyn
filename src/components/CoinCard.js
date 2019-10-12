@@ -1,23 +1,28 @@
-import React, {useEffect } from 'react';
+import React from 'react';
 import { View, Text, StyleSheet, SafeAreaView } from 'react-native';
-
 
 const coins = {
   BTC: 'Bitcoin',
-}
+};
 
-export default function CoinCard({coinValue, coinStatus, gotAllData, ticker, variation }) {
-
+export default function CoinCard({
+  coinValue,
+  coinStatus,
+  gotAllData,
+  ticker,
+  variation,
+}) {
   return (
     <SafeAreaView style={styles.container}>
-    {gotAllData ? (
-      <View style={coinStatus ? styles.contentGreen : styles.contentRed}>
-        <Text style={styles.fon}>{coins[ticker]}</Text>
-        <Text style={styles.fon}>R$ {coinValue}</Text>
-        <Text style={coinStatus ? styles.variationUp : styles.variationDown}>{variation}%</Text>
-      </View>
-      ) : null
-    }
+      {gotAllData ? (
+        <View style={coinStatus ? styles.contentGreen : styles.contentRed}>
+          <Text style={styles.fon}>{coins[ticker]}</Text>
+          <Text style={styles.fon}>R$ {coinValue}</Text>
+          <Text style={coinStatus ? styles.variationUp : styles.variationDown}>
+            {variation}%
+          </Text>
+        </View>
+      ) : null}
     </SafeAreaView>
   );
 }
@@ -65,5 +70,5 @@ const styles = StyleSheet.create({
     color: '#FFADAD',
     fontFamily: 'VT323',
     fontSize: 23,
-  }
+  },
 });

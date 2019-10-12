@@ -1,7 +1,7 @@
-import axios from 'axios'
+import axios from 'axios';
 
 const coinAPI = axios.create({
-  baseURL: 'https://www.mercadobitcoin.net/api/'
-})
+  baseURL: 'https://www.mercadobitcoin.net/api/',
+});
 
-export default coinAPI
+export default coinAPI;

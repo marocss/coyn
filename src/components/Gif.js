@@ -1,16 +1,14 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Image, StyleSheet } from 'react-native';
 
-
-export default function Gif({gotAllData, coinStatus, gifURL}) {
+export default function Gif({ gotAllData, coinStatus, gifURL }) {
   return (
     <View>
       {gotAllData && gifURL ? (
         <View style={styles.container}>
-          <Image style={styles.g} source={{uri: gifURL}} /> 
+          <Image style={styles.g} source={{ uri: gifURL }} />
         </View>
-      ) : null
-      }
+      ) : null}
     </View>
   );
 }
@@ -18,7 +16,7 @@ export default function Gif({gotAllData, coinStatus, gifURL}) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
+    justifyContent: 'center',
   },
   g: {
     width: 390,

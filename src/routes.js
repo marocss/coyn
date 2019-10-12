@@ -1,11 +1,11 @@
-import { createAppContainer, createSwitchNavigator } from 'react-navigation'
+import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 
-import Main from './screens/Main'
+import Main from './screens/Main';
 
 const Routes = createAppContainer(
   createSwitchNavigator({
     Main,
   })
-)
+);
 
-export default Routes
+export default Routes;
