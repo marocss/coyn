@@ -3,7 +3,6 @@ import { StyleSheet, View, StatusBar } from 'react-native';
 
 import MyApp from './src'
 
-
 export default function App() {
   return (
     <View style={styles.container}>
