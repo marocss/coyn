@@ -27,6 +27,14 @@ module.exports = {
     'prettier/prettier': 'error',
     'import/prefer-default-export': 'off',
     'react/jsx-filename-extension': 0,
-    'no-console': 0
+    'no-console': 0,
+    'func-names': 0
   },
+  settings: {
+    'import/resolver': {
+      'babel-plugin-root-import': {
+        rootPathSuffix: 'src'
+      }
+    }
+  }
 };

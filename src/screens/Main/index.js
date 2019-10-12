@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import * as Font from 'expo-font';
 
-import coinAPI from '../../services/coinAPI';
-import gifAPI from '../../services/gifAPI';
-import GIF_API_KEY from '../../services/apiKey';
+import coinAPI from '~/services/coinAPI';
+import gifAPI from '~/services/gifAPI';
+import GIF_API_KEY from '~/services/apiKey';
 
-import Gif from '../../components/Gif';
-import CoinCard from '../../components/CoinCard';
-
-import VT323 from '../../../assets/fonts/VT323-Regular.ttf';
+import Gif from '~/components/Gif';
+import CoinCard from '~/components/CoinCard';
 
 import { Container } from './styles';
 

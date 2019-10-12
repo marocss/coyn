@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import { StatusBar } from 'react-native';
 import * as Font from 'expo-font';
 
-import Routes from './routes';
+import Routes from '~/routes';
 
-import VT323 from '../assets/fonts/VT323-Regular.ttf';
+import VT323 from '~/assets/fonts/VT323-Regular.ttf';
 
 export default function MyApp() {
   /* Loads font */
