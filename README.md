@@ -1,4 +1,4 @@
-# Crypto Watcher
+# Coyn
 
 Um aplicativo que verifica o valor atual de uma cripto-moeda e sua variação e renderiza um gif feliz se a variação foi positiva e triste caso negativa.
 
